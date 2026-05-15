@@ -7,18 +7,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-    /* Nhúng font mới hỗ trợ tiếng Việt cực tốt */
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;700&display=swap');
+    /* Nhúng font Lora (cho tiêu đề) và Inter (cho nội dung) */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap');
     
     body { 
         font-family: 'Inter', sans-serif; 
         color: #222; 
     }
 
-    /* Tít chính: Chuyển sang Playfair Display để tăng tính hấp dẫn và định hướng */
+    /* Đổi tiêu đề sang font Lora */
     .font-serif { 
-        font-family: 'Playfair Display', serif; 
-        letter-spacing: -0.02em; /* Thu hẹp khoảng cách chữ để tít cô đọng hơn */
+        font-family: 'Lora', serif; 
+        letter-spacing: -0.01em; 
     }
     
     .article-body p {
@@ -28,11 +28,10 @@
         text-align: justify;
     }
     
-    /* Các tiêu đề phụ (Subheadings) giúp cấu trúc hóa bài viết */
     .article-body h2 {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Lora', serif;
         font-size: 1.75rem;
-        font-weight: 900;
+        font-weight: 700;
         margin-top: 2.5rem;
         margin-bottom: 1.25rem;
         color: #b91c1c;
@@ -44,9 +43,9 @@
         font-size: 4rem;
         line-height: 0.8;
         padding-right: 0.6rem;
-        font-weight: 900;
+        font-weight: 700;
         color: #b91c1c;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Lora', serif;
     }
 </style>
 </head>
